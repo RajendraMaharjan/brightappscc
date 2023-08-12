@@ -22,6 +22,7 @@ public class EmployeeController {
 
     @GetMapping("/")
     public ResponseEntity<SearchResponse> getEmployeeSearch(@Valid @RequestBody SearchDTO searchDTO) {
+
         return ResponseEntity.ok(employeeService.getEmployeeSearch(searchDTO));
     }
 

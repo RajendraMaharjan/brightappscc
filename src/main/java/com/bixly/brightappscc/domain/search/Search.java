@@ -5,7 +5,7 @@
 //import org.springframework.data.annotation.Id;
 //import org.springframework.data.elasticsearch.annotations.Document;
 //
-//@Document(indexName = "search_index")
+//@Document(indexName = "search")
 //@Data
 //@NoArgsConstructor
 //public class Search {

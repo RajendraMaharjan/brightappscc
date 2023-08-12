@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 @Data
-@Document(indexName = "employee_index")
+@Document(indexName = "employee")
 @NoArgsConstructor
 public class Employee {
 
